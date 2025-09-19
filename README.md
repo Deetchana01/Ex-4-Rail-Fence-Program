@@ -1,13 +1,11 @@
-# Ex-4 Rail-Fence-Program
+# Ex-5 Rail-Fence-Program
 
-IMPLEMENTATION OF RAIL FENCE – ROW & COLUMN TRANSFORMATION TECHNIQUE
+# IMPLEMENTATION OF RAIL FENCE – ROW & COLUMN TRANSFORMATION TECHNIQUE
 
 # AIM:
-
-To write a C program to implement the rail fence transposition technique.
+# To write a C program to implement the rail fence transposition technique.
 
 # DESCRIPTION:
-
 In the rail fence cipher, the plain text is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
 # ALGORITHM:
@@ -18,8 +16,9 @@ STEP-3: Now read the keyword depending on the number of columns of the plain tex
 STEP-4: Arrange the characters of the keyword in sorted order and the corresponding columns of the plain text.
 STEP-5: Read the characters row wise or column wise in the former order to get the cipher text.
 ```
+
 # PROGRAM
-```
+~~~
  #include <stdio.h>
  #include <string.h>
  #include <ctype.h>
@@ -51,10 +50,9 @@ STEP-5: Read the characters row wise or column wise in the former order to get t
  encryptRailFence(message, rails);
  return 0;
  }
-```
+~~~
 # OUTPUT
-<img width="1694" height="1019" alt="image" src="https://github.com/user-attachments/assets/56db05f7-ca6a-4410-a3bf-96e94add89da" />
-
+<img width="1298" height="888" alt="image" src="https://github.com/user-attachments/assets/78c74734-b661-4a4e-8a51-9c24819fa06c" />
 
 # RESULT
-The program is executed successfully 
+The program is executed successfully
